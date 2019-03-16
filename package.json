@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "embracejs-orm",
+  "version": "0.0.1",
+  "description": "Embrace.js ORM module.",
+  "author": "Matthew Dooley",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest --verbose"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "tests/.*\\.(js|jsx|ts)$"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/pluralize": "0.0.29",
+    "@types/qs": "^6.5.2",
+    "axios": "^0.18.0",
+    "pluralize": "^7.0.0",
+    "qs": "^6.6.0",
+    "validator": "^10.11.0"
+  }
+}
