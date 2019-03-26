@@ -1,6 +1,6 @@
-# embrace-js/orm
+# embracejs/orm
 
-This is [Embrace.js](https://github.com/embrace-js)'s ORM module.
+This is [Embrace.js](https://github.com/embracejs)'s ORM module.
 
 ## Status
 This project is in early development stages.
