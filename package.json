@@ -30,7 +30,7 @@
   "dependencies": {
     "@types/pluralize": "0.0.29",
     "@types/qs": "^6.5.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "pluralize": "^7.0.0",
     "qs": "^6.6.0",
     "validator": "^10.11.0"
